@@ -10,8 +10,7 @@ export default function Services() {
     <div>
       {/*  Services Section */}
 
-      <section className="absolute w-full h-full p-40 px-[9%] pb-8 invisible opacity-0 overflow-hidden bg-bgcolor animate-show-content animation-section max-992:pt-[40rem] max-992:pb-8 max-992:px-[4%]">
-
+      <section className="absolute w-full h-full p-40 px-[9%] pb-8 invisible opacity-0 overflow-hidden bg-bgcolor animate-show-content animation-section 2xl:pt-40 2xl:pb-8 2xl:px-[4%]">
         {/* Main Heading */}
 
         <div>
@@ -23,11 +22,9 @@ export default function Services() {
         {/* Services Container */}
 
         <div className="services-container grid grid-cols-[repeat(auto-fit,_minmax(30rem,_1fr))] gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20">
-
           {/* Services Box 1*/}
 
           <div className="services-box group p-12 bg-secondbgcolor ring-bgcolor rounded-lg transition duration-500 ring-2 hover:ring-maincolor hover:scale-[1.02] hover:text-maincolor hover:shadow-[0_0_2rem] hover:shadow-maincolor">
-
             {/* Icons */}
 
             <div className="icon flex justify-between items-center sm:justify-between md:items-center">
@@ -56,7 +53,6 @@ export default function Services() {
           {/* Services Box 2*/}
 
           <div className="services-box group p-12 bg-secondbgcolor ring-bgcolor rounded-lg transition duration-500 ring-2 hover:ring-maincolor hover:scale-[1.02] hover:text-maincolor hover:shadow-[0_0_2rem] hover:shadow-maincolor">
-
             {/* Icons */}
 
             <div className="icon flex justify-between items-center sm:justify-between md:items-center">
@@ -85,7 +81,6 @@ export default function Services() {
           {/* Services Box 3*/}
 
           <div className="services-box group p-12 bg-secondbgcolor ring-bgcolor rounded-lg transition duration-500 ring-2 hover:ring-maincolor hover:scale-[1.02] hover:text-maincolor hover:shadow-[0_0_2rem] hover:shadow-maincolor">
-            
             {/* Icons */}
 
             <div className="icon flex justify-between items-center sm:justify-between md:items-center">
@@ -114,7 +109,6 @@ export default function Services() {
           {/* Services Box 4*/}
 
           <div className="services-box group p-12 bg-secondbgcolor ring-bgcolor rounded-lg transition duration-500 ring-2 hover:ring-maincolor hover:scale-[1.02] hover:text-maincolor hover:shadow-[0_0_2rem] hover:shadow-maincolor">
-            
             {/* Icons */}
 
             <div className="icon flex justify-between items-center sm:justify-between md:items-center">
@@ -139,7 +133,6 @@ export default function Services() {
               captivate audiences
             </p>
           </div>
-          
         </div>
       </section>
     </div>
