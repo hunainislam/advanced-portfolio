@@ -42,11 +42,11 @@ export default function Projects() {
   }, [index]); // Re-run when the index changes
 
   const handleArrowRight = () => {
-    if (index < 7) {
+    if (index < 12) {
       setIndex(index + 1);
       arrowLeftRef.current?.classList.remove("disabled");
     } else {
-      setIndex(7);
+      setIndex(0);
       arrowRightRef.current?.classList.add("disabled");
     }
   };
@@ -627,6 +627,306 @@ export default function Projects() {
                 </Link>
               </div>
             </div>
+
+            {/* Project Detail 9 */}
+
+            <div className="portfolio-detail hidden">
+              <p className="numb">09</p>
+              <h3 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-left my-[0.8rem] mb-8 text-whitecolor mt-8">
+                Furniro Landing Page
+              </h3>
+              <p className="text-[2rem] font-medium mt-16 text-whitecolor line-clamp-2">
+              Welcome to Furniro, where timeless design meets unmatched craftsmanship. We bring to life furniture that doesn’t just fill spaces but transforms them into sanctuaries of comfort and style. With a commitment to sustainability, our pieces are crafted using eco-friendly materials, ensuring a greener planet for future generations.
+              </p>
+              <div className="tech my-8 text-whitecolor underline-offset-[2rem] underline pb-8">
+                <p className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-3xl text-left text-maincolor mt-4 ">
+                  Next.js, TailwindCSS, Figma
+                </p>
+              </div>
+              <div className="live-github">
+                <Link
+                  target="_blank"
+                  href={"https://project-challenge-2zyc.vercel.app/"}
+                  className="inline-flex p-[0.9rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx arrow-back rotate-[135deg] mr-2">
+                    <IoArrowBack />
+                  </i>
+                  <span className="">Live Project</span>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://github.com/hunainislam?tab=repositories"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx github">
+                    <FaGithub />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/hunain-islam-2057832b7/"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx linkedin">
+                    <FaLinkedinIn />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://vercel.com/malik-hunains-projects"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx vercel">
+                    <IoLogoVercel />
+                  </i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Project Detail 10 */}
+
+            <div className="portfolio-detail hidden">
+              <p className="numb">10</p>
+              <h3 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-left my-[0.8rem] mb-8 text-whitecolor mt-8">
+              Governor Initiative
+              </h3>
+              <p className="text-[2rem] font-medium mt-16 text-whitecolor line-clamp-2">
+              The Governor Initiative represents a bold vision for transformative change, aimed at fostering growth, inclusivity, and sustainability across every corner of the region. This initiative is a testament to dynamic leadership and a commitment to addressing the unique needs of communities through innovative policies and impactful programs.
+              </p>
+              <div className="tech my-8 text-whitecolor underline-offset-[2rem] underline pb-8">
+                <p className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-3xl text-left text-maincolor mt-4 ">
+                  Next.js, TailwindCSS
+                </p>
+              </div>
+              <div className="live-github">
+                <Link
+                  target="_blank"
+                  href={"https://governor-initiative-zeta.vercel.app/"}
+                  className="inline-flex p-[0.9rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx arrow-back rotate-[135deg] mr-2">
+                    <IoArrowBack />
+                  </i>
+                  <span className="">Live Project</span>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://github.com/hunainislam?tab=repositories"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx github">
+                    <FaGithub />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/hunain-islam-2057832b7/"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx linkedin">
+                    <FaLinkedinIn />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://vercel.com/malik-hunains-projects"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx vercel">
+                    <IoLogoVercel />
+                  </i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Project Detail 11 */}
+
+            <div className="portfolio-detail hidden">
+              <p className="numb">11</p>
+              <h3 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-left my-[0.8rem] mb-8 text-whitecolor mt-8">
+              Grid Layout
+              </h3>
+              <p className="text-[2rem] font-medium mt-16 text-whitecolor line-clamp-2">
+              A Grid Layout is a powerful CSS technique that provides a two-dimensional structure for designing web pages. It allows developers to create visually appealing and well-organized layouts by defining rows and columns. This layout system is perfect for building responsive designs that adapt seamlessly to different screen sizes and resolutions.
+              </p>
+              <div className="tech my-8 text-whitecolor underline-offset-[2rem] underline pb-8">
+                <p className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-3xl text-left text-maincolor mt-4 ">
+                  Next.js, TailwindCSS
+                </p>
+              </div>
+              <div className="live-github">
+                <Link
+                  target="_blank"
+                  href={"https://grid-layout-liard.vercel.app/"}
+                  className="inline-flex p-[0.9rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx arrow-back rotate-[135deg] mr-2">
+                    <IoArrowBack />
+                  </i>
+                  <span className="">Live Project</span>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://github.com/hunainislam?tab=repositories"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx github">
+                    <FaGithub />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/hunain-islam-2057832b7/"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx linkedin">
+                    <FaLinkedinIn />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://vercel.com/malik-hunains-projects"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx vercel">
+                    <IoLogoVercel />
+                  </i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Project Detail 12 */}
+
+            <div className="portfolio-detail hidden">
+              <p className="numb">12</p>
+              <h3 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-left my-[0.8rem] mb-8 text-whitecolor mt-8">
+              Responsive Grid Layout
+              </h3>
+              <p className="text-[2rem] font-medium mt-16 text-whitecolor line-clamp-2">
+              A Responsive Grid Layout is a design approach that ensures your content looks great and functions seamlessly on all screen sizes. By using CSS Grid with media queries, you can create layouts that dynamically adjust their structure based on the device's width, offering an optimal viewing experience for users.
+              </p>
+              <div className="tech my-8 text-whitecolor underline-offset-[2rem] underline pb-8">
+                <p className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-3xl text-left text-maincolor mt-4 ">
+                  Next.js, TailwindCSS
+                </p>
+              </div>
+              <div className="live-github">
+                <Link
+                  target="_blank"
+                  href={"https://responsive-grid-layout-nu.vercel.app/"}
+                  className="inline-flex p-[0.9rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx arrow-back rotate-[135deg] mr-2">
+                    <IoArrowBack />
+                  </i>
+                  <span className="">Live Project</span>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://github.com/hunainislam?tab=repositories"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx github">
+                    <FaGithub />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/hunain-islam-2057832b7/"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx linkedin">
+                    <FaLinkedinIn />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://vercel.com/malik-hunains-projects"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx vercel">
+                    <IoLogoVercel />
+                  </i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Project Detail 13 */}
+
+            <div className="portfolio-detail hidden">
+              <p className="numb">13</p>
+              <h3 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-left my-[0.8rem] mb-8 text-whitecolor mt-8">
+              Hero Section
+              </h3>
+              <p className="text-[2rem] font-medium mt-16 text-whitecolor line-clamp-2">
+              The Hero Section is the first impression of your website—it’s the visually striking area at the top of your page that grabs attention and communicates your brand's essence. A well-designed hero section can engage visitors, convey your primary message, and drive them to explore further.
+              </p>
+              <div className="tech my-8 text-whitecolor underline-offset-[2rem] underline pb-8">
+                <p className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-3xl text-left text-maincolor mt-4 ">
+                  Next.js, TailwindCSS
+                </p>
+              </div>
+              <div className="live-github">
+                <Link
+                  target="_blank"
+                  href={"https://hero-section-coral.vercel.app/"}
+                  className="inline-flex p-[0.9rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx arrow-back rotate-[135deg] mr-2">
+                    <IoArrowBack />
+                  </i>
+                  <span className="">Live Project</span>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://github.com/hunainislam?tab=repositories"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx github">
+                    <FaGithub />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/hunain-islam-2057832b7/"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx linkedin">
+                    <FaLinkedinIn />
+                  </i>
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://vercel.com/malik-hunains-projects"}
+                  className="inline-flex p-[0.8rem] border-[0.2rem] border-maincolor rounded-full text-4xl text-maincolor mx-[0.8rem] my-0 transition-all 
+                    duration-500  ring-2 ring-maincolor hover:ring-maincolor hover:bg-maincolor hover:text-bgcolor hover:shadow-[0_0_2rem] hover:shadow-maincolor"
+                >
+                  <i className="bx vercel">
+                    <IoLogoVercel />
+                  </i>
+                </Link>
+              </div>
+            </div>
           </div>
 
           {/* Project Box 2 */}
@@ -730,6 +1030,66 @@ export default function Projects() {
                 <div className="img-item h-inherit">
                   <Image
                     src="/images/project8.png"
+                    className="block w-full h-full object-cover rounded-lg object-center"
+                    alt="no-image"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+
+                {/* Image Item 9 */}
+
+                <div className="img-item h-inherit">
+                  <Image
+                    src="/images/furniro.png"
+                    className="block w-full h-full object-cover rounded-lg object-center"
+                    alt="no-image"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+
+                {/* Image Item 10 */}
+
+                <div className="img-item h-inherit">
+                  <Image
+                    src="/images/governor.png"
+                    className="block w-full h-full object-cover rounded-lg object-center"
+                    alt="no-image"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+
+                {/* Image Item 11 */}
+
+                <div className="img-item h-inherit">
+                  <Image
+                    src="/images/gridlayout.png"
+                    className="block w-full h-full object-cover rounded-lg object-center"
+                    alt="no-image"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+
+                {/* Image Item 12 */}
+
+                <div className="img-item h-inherit">
+                  <Image
+                    src="/images/responsive.png"
+                    className="block w-full h-full object-cover rounded-lg object-center"
+                    alt="no-image"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+
+                {/* Image Item 13 */}
+
+                <div className="img-item h-inherit">
+                  <Image
+                    src="/images/hero1.png"
                     className="block w-full h-full object-cover rounded-lg object-center"
                     alt="no-image"
                     width={1200}

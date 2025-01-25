@@ -85,7 +85,7 @@ export default function Contact() {
             >
               {/* Sub Heading */}
 
-              <h2 className="heading scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-center mb-12 text-whitecolor max-400:text-[3.5rem]">
+              <h2 className="heading scroll-m-20 text-4xl font-extrabold tracking-tight text-[4rem] text-center mb-12 text-whitecolor max-400:text-[3.5rem] ">
                 Contact <span className="text-maincolor">Me!</span>
               </h2>
 
